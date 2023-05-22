@@ -31,9 +31,9 @@
  }
 </script>
 
-<style scoped>
+<style>
  .v-main-wrapper {
-    min-width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     }
 </style>
