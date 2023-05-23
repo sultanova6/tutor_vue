@@ -6,6 +6,7 @@
                 v-for="product in products"
                 :key="product.article"
                 :product_data="product"
+                @sendArticle="showChildArticleInConsole"
             />
         </div>
     </div>
@@ -50,7 +51,12 @@
   ]
         }
     },
-    computed: {}
+    computed: {},
+    methods: {
+      showChildArticleInConsole(data) {
+        console.log(data)
+      }
+    }
  }
 </script>
 
